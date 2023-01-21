@@ -1,0 +1,32 @@
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+h1{
+font-family:'Jua', sans-serif;
+font-size: 75px;
+}
+
+
+h1,li {
+text-align: center;
+
+}
+
+.recipe-images{
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.recipe-images img {
+  width: 350px;
+  height: 500px;
+  margin: 15px;
+}
+

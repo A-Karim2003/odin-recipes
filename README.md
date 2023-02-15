@@ -1,4 +1,4 @@
-# odin-recipes
+
 my first odin project
 
 In this project i will be creating a website of a recipes of my own choice. by the time i finish this project,

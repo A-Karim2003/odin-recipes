@@ -1,41 +1,39 @@
-.logo{
+.logo {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width:400px;
-  height:333px;
+  width: 400px;
+  height: 333px;
 }
 
-
-h1{
-font-family:'Jua', sans-serif;
-font-size: 70px;
-margin-bottom: 0px;
-margin-top: 0px;
+a {
+  text-decoration: none;
+  color: black;
 }
-
 
 h1 {
-text-align: center;
-
+  font-family: "Jua", sans-serif;
+  font-size: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
-p{
+h1 {
   text-align: center;
-  font-weight:bold;
-  font-size: 24px;
-  
-  }
-  
+}
 
-.recipe-images{
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.recipe-images {
   object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
-  
-
 }
 
 .recipe-images img {
@@ -46,9 +44,7 @@ p{
   transition: 0.4s;
 }
 
-
-.recipe-images img:hover{
-
+.recipe-images img:hover {
   border-radius: 100px;
   opacity: 0.8;
   border-radius: 25px;
@@ -57,18 +53,35 @@ p{
   cursor: pointer;
   transform: scale(1.15);
   box-shadow: 2px 2px 10px rgba(0, 128, 0, 1.5);
-  
+}
+
+.recipe-images div:active {
+  opacity: 0.4;
+}
+
+.secret-recipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secret-recipe img {
+  width: 350px;
+  height: 500px;
+  margin: 60px;
+  margin-bottom: 10px;
+  transition: 0.4s;
+  object-fit: cover;
 }
 
 
-  .recipe-images div:active{
-    opacity: 0.4;
-  
-    
-  }
-  
-
-
-  
-
-
+.secret-recipe img:hover {
+  border-radius: 100px;
+  opacity: 0.8;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: green;
+  cursor: pointer;
+  transform: scale(1.15);
+  box-shadow: 2px 2px 10px rgba(0, 128, 0, 1.5);
+}
